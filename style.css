@@ -13,7 +13,7 @@
   font-variation-settings:
     "wdth" 100;
 }
-section{
+section,footer{
     margin-top: 130px;
 }
 /* shared style */
@@ -30,7 +30,13 @@ section{
     font-size: 20px;
     padding: 18px 35px; 
     border-radius: 5px;
+    cursor: pointer;
 
+}
+.btn:hover{
+    box-shadow: 2px 2px 5px gray;
+    background-color: white;
+    color: #FD6E0A;
 }
 .colour-orange{
     color: #FD6E0A;
@@ -41,7 +47,7 @@ section{
     background-color:  #FFF8F3;padding-top: 50px;
     background: url(./developer.png) ,url(./header_bg.png),#FFF8F3;
     background-repeat: no-repeat;
-    background-position: left top,bottom right;
+    background-position: 23px 38px,bottom right;
 }
 .navbar{
     /* border: 1px solid; */
@@ -117,13 +123,13 @@ nav ul{
     margin: 30px 22px 0;
 }
 .about-info h3{
-         font-size: 20px;
-         color: #474747;
+    font-size: 20px;
+     color: #474747;
 }
 .section2{
     text-align: center;
 }
-.section2-heading h1, p{
+.section2-heading h1,p{
     max-width: 827px;
     margin: 40px auto;
 } 
@@ -150,3 +156,59 @@ nav ul{
     font-size: 20px;
     color: #181818;
  }
+ .section3{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1200px;
+    /* border: 1px solid; */
+ }
+.section3-heading{
+    margin: 60px;
+}
+hr{
+    width: 500px;
+}
+ .section3-content{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    text-align: left;
+    padding: 10px;
+
+ }
+ .section3-content h1,h2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+ }
+ .education, .experience{
+    max-width: 550px;
+    padding-right: 110px;
+ }
+ 
+  .footer{
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer-text{
+    /* border: 1px solid; */
+    width: 500px;
+  }
+  .footer input{
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: none;
+  }
+  .footer textarea{
+   width: 300px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none; 
+  }
