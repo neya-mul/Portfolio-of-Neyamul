@@ -51,8 +51,9 @@ section,footer{
 }
 .navbar{
     /* border: 1px solid; */
-    max-width: 1140px;
+    max-width: 1340px;
     margin: 0 auto;
+    margin-left: 380px;
     justify-content: space-between;
     display: flex;
     align-items: center;
@@ -78,14 +79,15 @@ nav ul{
 .header-content{
     /* border: 1px solid; */
     /* width: 71%; */
-    max-width: 1332px;
+    max-width: 1550px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 310px;
+    margin-left: 380px;
     margin-right: 38px;
 }
 .header-elements{
+    
     max-width: 585px ;
     /* margin-top: 297px; */
 }
@@ -93,6 +95,10 @@ nav ul{
     font-size: 80px;
     font-weight: bold;
     margin: 15px 0;
+}
+.header-elements h2{
+    /* border: 1px solid; */
+    font-size: 30px;
 }
 .header-elements p{
     margin: 20px 0;
@@ -147,6 +153,9 @@ nav ul{
     text-align: left;
     padding: 30px;
     box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.065);
+ }
+ .section2-card:hover{
+    box-shadow: 1px 5px 50px 1px rgb(165, 158, 158);
  }
  .section2-card h4,p{
     margin-top:20px ;
@@ -211,4 +220,7 @@ hr{
     margin-top: 10px;
     margin-bottom: 10px;
     border: none; 
+  }
+  .footer input,textarea:focus{
+    outline: none;
   }
